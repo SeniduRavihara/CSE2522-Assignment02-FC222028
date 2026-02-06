@@ -1,0 +1,18 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio files
+.vs/
+.vscode/
+*.user
+*.suo
+*.sln.docstates
+
+# Temporary files
+*.log
+*.tmp
+
+# Custom exclusions (User requested)
+SAMPLES/
+Assignment/
