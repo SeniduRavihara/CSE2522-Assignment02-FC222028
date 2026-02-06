@@ -9,6 +9,8 @@ namespace CSE2522_Assignment02.Drivers
         {
             var options = new ChromeOptions();
             options.AddArgument("--start-maximized");
+            options.AddArgument("--ignore-certificate-errors");
+            options.AddArgument("--allow-running-insecure-content");
             // options.AddArgument("--headless"); // Uncomment for headless mode
             
             return new ChromeDriver(options);
